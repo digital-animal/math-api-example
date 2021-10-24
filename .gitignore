@@ -1,8 +1,9 @@
-.settings/
-*.prefs
-.project
-.classpath
 .gitignore
+/target/
+/.classpath
+/*.project
+/.settings
+/*.springBeans
 
 ### Java ###
 # Compiled class file
@@ -44,6 +45,9 @@ buildNumber.properties
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
 
+# Created by https://www.toptal.com/developers/gitignore/api/eclipse
+# Edit at https://www.toptal.com/developers/gitignore?templates=eclipse
+
 ### Eclipse ###
 .metadata
 bin/
@@ -62,6 +66,15 @@ local.properties
 
 # Locally stored "Eclipse launch configurations"
 *.launch
+
+# PyDev specific (Python IDE for Eclipse)
+*.pydevproject
+
+# CDT-specific (C/C++ Development Tooling)
+.cproject
+
+# CDT- autotools
+.autotools
 
 # Java annotation processor (APT)
 .factorypath
@@ -88,6 +101,11 @@ local.properties
 .apt_generated/
 .apt_generated_test/
 
+# Scala IDE specific (Scala & Java development for Eclipse)
+.cache-main
+.scala_dependencies
+.worksheet
+
 # Uncomment this line if you wish to ignore the project description file.
 # Typically, this file would be tracked if it contains build/dependency configurations:
 #.project
@@ -95,6 +113,9 @@ local.properties
 ### Eclipse Patch ###
 # Spring Boot Tooling
 .sts4-cache/
+
+# End of https://www.toptal.com/developers/gitignore/api/eclipse
+
 
 ### JetBrains ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
